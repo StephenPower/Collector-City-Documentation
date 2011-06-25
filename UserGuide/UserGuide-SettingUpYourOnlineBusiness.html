@@ -1,0 +1,115 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<LINK REL="StyleSheet" HREF="style.css" TYPE="text/css" MEDIA=screen>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Django Market Documentation - User Guide</title>
+</head>
+
+<body>
+<html> 
+<h1>Django Market User Guide </h1>
+<h1>Chapter 2: <em>	Setting Up Your shop On Django Market</em></h1>
+<h1>Overview</h1>
+
+<h2>It's Easy To Set Up Your Shop  With Django Market</h2>
+<p>While setting Up your store, we will:</p>
+    <ol>
+    <li><b>Optimize</b> You're Online Store so people can find you.</li>
+	<li>Help You understand How customers <strong>are using your store</strong></li>
+	<li>Customize Your <strong>Shop so people can find you</strong></li>
+    </ol>
+
+
+<h2>Setting Up Your Django Shop</h2>
+<p>Guidelines to Set up your Shop:</p>
+<p>&nbsp;</p>
+
+<h3>Step 1: <em>Put Your Logo Or Picture In The Account Screen.</em></h3>
+<p>&nbsp;</p>
+
+<ol>
+  <li>This is important because when you<strong> blog, post, or interact </strong>on the marketplace, this image<strong> will accompany it.</strong></li>
+  <li>Otherwise, the <strong>market default will appear (ugly)</strong></li>
+  <li>To Get Here
+    <ol>
+      <li>Click The Account Tab on the Right Side</li>
+      <li>Click the Picture Tab in the middle</li>
+    </ol>
+  <img src="ScreenShots/Admin/Admin-Account_Screen.png" alt="Django Market Admin-Account_Screen" width="80%" align="middle"class="ListImage" /></li>
+</ol>
+<h3>Step 2:<em> Fill In Your Home Page and About Us Page. </em></h3>
+<p>This is critical even as a place holder. </p> 
+<h2>You will Notice a Few Things:</h2>
+<ol>
+<li> We have an editor for the page content.<b> You can put text, html or use the visual editor</b> to ensure your page looks correct</li>
+<li>You have to fill out the <b>Title, Page Content, and "Meta Content".</b> I'll explain each.
+</li>
+</ol>
+<p>&nbsp;</p>
+<img src="ScreenShots/Admin/WebStore/WebStore-Pages-Home-AboutUs.png"  alt="Django Market Admin-Account_Screen"  class="ListImage" />
+<h3>What Are These and Why?</h3>
+<ol>
+<li><b>Title:</b> The Title description is important so Google, Bing and Yahoo can properly understand what's on the page. To quote google: 
+  <blockquote><a href="http://www.google.com/support/webmasters/bin/answer.py?answer=35769#1">Make sure that your  Title elements and ALT attributes are descriptive and accurate.</a></blockquote> </li>
+<li><b>Page Content:</b> This is the most important part of the page. Make it for your users, do not worry about what search engines think. If the content is good, people will link to it and the search engines will pick that up. <a href="http://www.google.com/support/webmasters/bin/answer.py?hl=en&answer=35291&ctx=cb&src=cb&cbid=-1oz9oc192rvsa&cbrank=3">Quality Guidelines</a></li>
+<li><b>Meta Content:</b> This allows Google to understand specific content on the page. <a href="http://www.google.com/support/webmasters/bin/answer.py?answer=66358"> Do not stuff Key Words</a></li>
+</ol>
+<p>&nbsp;</p>
+<h3>Google Analytics</h3>
+<p>It's beyond the scope of this documentation to explain Google Analytics, if you don't know what it is, <a href="http://www.google.com/analytics/">make sure you find out</a>. This is key to managing your shop. It's free and you can use it until you get familiar with what tools are out there.</p>
+<p>&nbsp;</p>
+<p><em>We plan to have Google Analytics integration in the future so you can see the metrics directly from your store</em></p>
+<p>&nbsp;</p>
+<img src="ScreenShots/Admin/WebStore/Marketing-Analytics.png" class="ListImage" alt="Google Analytics on Django Market">
+<h3>Step 3:<em> Payments, it's critical to make sure you can sell stuff :)</em></h3>
+<p>I know this goes with out saying, but I get calls about this fairly frequently. I plan to write  a store wizard to ensure this doesn't happen, but until then I have my documenation: </p>
+<h3>What Are The Current Payment Options</h3>
+<ol>
+<li><b>PayPal</b> is the first screen you see in the payment area.
+  <ol>
+    <li> If you If you have a PayPal Account, you can enter your creditials here.</li>
+    <li>There are directions you must follow that allows <strong>Django Market to process payments on your behalf as a seller</strong>. These are VERY IMPORTANT. <a href="www.paypal.com">PayPal.</a> </li>
+  </ol>
+</li>
+<li><b>Google Checkout</b> <a href="http://google.com/checkout">Google Checkout</a> Requires You to:
+  <ol>
+    <li>Log into your Google Checkout Merchant account&nbsp;<a href="http://google.com/checkout">click here</a></li>
+    <li>Go to&nbsp;<em>Settings</em>&nbsp;tab and click on&nbsp;<em>Integration</em></li>
+    <li>In the textfield&nbsp;<em>API callback URL</em>&nbsp;put this https://yyzfan12345.example.com/services/google/ipn/</li>
+    <li>On&nbsp;<em>Callback contents</em>&nbsp;select the choice "Notification as HTML (name/value pairs)"</li>
+    <li>Save settings</li>
+  </ol>
+</li>
+<li><b>Credit Cards:</b> Django Market only allows BrainTree at this time, we are adding payment processors reguarly and if you have any requests, please forward me a note at steve at great coins dot com.
+  <ol>
+    <li><strong>BrainTree: </strong>Only needs<strong> Merchant id, Public key, Public key</strong></li>
+    <li>You get these <strong>from BrainTree.</strong></li>
+    <li>BrainTree can be your <strong>merchant account or your gateway</strong> if you already have an account.</li>
+    <li><strong>Credit Card Payments is beyond the scope </strong>of this documentation, please go these links:
+      <ol>
+       <li><a href="http://www.braintreepayments.com/gateway/video-guides">Video Guides</a></li>
+       <li><a href="http://www.braintreepayments.com/services/payment-gateway">Payment Gateway</a></li>
+       <li><a href="http://www.braintreepayments.com/payment-processing/articles">Payment Processing Articles</a></li>
+       <li><a href="http://www.braintreepayments.com/pci-dss-compliance/articles">PCI Compliance (hint not that hard with BrainTree</a></li>
+      </ol>
+    </li>
+      </ol>
+</li>
+<li><strong>Manual Payments</strong> Manual Payments are what ever you need: checks, wire transfers, bartering etc... We allow you to put any type of manual payment and it will come up as a list during checkout<img src="ScreenShots/Admin/Preferences/Payments-PayPal.png"  class="ListImage" alt="Django Market Payments Home Page"></li>
+</ol>
+<h3>Step 4:<em> Shipping, This ensures when we do sell something if you want to charge for shipping, we put it in.</em></h3>
+<p> If you do not configure shipping and payments are configured,<em><strong> it's free. </strong></em>There I said it...</p>
+<h3>Shipping: What are the options</h3>
+<ol>
+    <li>Flat Rate <strong>By Weight</strong></li>
+    <li>Flat Rate <strong>By Price</strong></li>
+    <li>Flat Rate<strong> By Item Quantity</strong></li>
+</ol>
+<img src="ScreenShots/Admin/Preferences/Shipping.png" class="ListImage" alt="Django Market Shipping">
+<h3>Note:</h3>
+<p><em>We do not have integration with various shipping companies, we felt in it was in the "nice to have" for our target audience.</em></p>
+<footer>
+</footer>
+</body>
+

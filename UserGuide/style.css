@@ -159,7 +159,7 @@ body, select, input, textarea {
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
-h1, h2, h3, h4, h5, h6 { font-weight: bold; }
+h1, h2, h3, h4, h5, h6 { font-weight: bold; text-transform:capitalize }
 
 a, a:active, a:visited { color: #607890; }
 a:hover { color: #036; }
@@ -176,13 +176,9 @@ h2 {font-size: 120%;margin: 1em .25em}
 h3 {font-size: 100%;margin: 1em .25em}
 body {max-width: 80%;min-width: 80%;margin: 10%;}
 
-.ListImage {margin:10%;display: inline;float: none;max-width: 80%;}
+.ListImage {margin:10%;display: inline;float: none;min-width:60%;max-width: 60%;}
 .ListItems p {margin: 20px 0 ;width: 100%;}
-
-
-
 b {font-weight: bolder;}
-.ListItems p {margin: 20px 0 ;width: 100%;}
 ol {line-height: 1.5em;}
 
 
@@ -261,4 +257,6 @@ ol {line-height: 1.5em;}
   p, h2, h3 { orphans: 3; widows: 3; }
   h2, h3{ page-break-after: avoid; }
 }
+
+
 
